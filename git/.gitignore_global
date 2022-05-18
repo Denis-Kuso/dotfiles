@@ -1,0 +1,15 @@
+# Ignore MacOS generated files #
+################################
+.DS_Store
+.DS_Store?
+._*
+
+# Compiled sources #
+####################
+*.pyc
+*.exe
+
+# Databases #
+#############
+*.sql
+*.sqlite
