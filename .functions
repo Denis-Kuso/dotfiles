@@ -1,6 +1,6 @@
 # Create a new directory and move there
 function mk() {
-    mkdir -p "%@" && cd "$@"
+    mkdir -p "${1}" && cd "${1}"
 }
 
 # Go up [n] directories
